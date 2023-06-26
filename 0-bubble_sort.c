@@ -1,11 +1,9 @@
 #include "sort.h"
-
 /**
- *bubble_sort - this function sorts an array from the smallest to largest
- *@array: array to be sorted
- *@size: amount of elements in the array
+ * bubble_sort - sort elements from left to right from min to max
+ * @array: list to be interpreted
+ * @size: size of the array
  */
-
 void bubble_sort(int *array, size_t size)
 {
 
